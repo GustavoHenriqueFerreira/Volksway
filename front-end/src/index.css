@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-branco: #FFFFFF;
+    --cor-primaria: #12264B;
+    --cor-secundaria: #FFD100;
+    --cor-terciaria: #00B0FF;
+    --cor-quartenaria: #195F8C;
+    --cor-cinza-escuro: #252936;
+    --camada_geometrica: #8497B1;
+    --blue_card: #00B1EB;
+    --cor-preto: #000000;
+    --vermelho: #DF0B0B;
+    --azulEscuro: #060821;
+    --fonte-primaria: 'Poppins', sans-serif;
+    --fonte-tamanho: 18px;
+}

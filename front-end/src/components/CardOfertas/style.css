@@ -1,0 +1,224 @@
+#cardOfertas * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--poppins300);
+}
+
+#cardOfertas :root {
+    --dark_blue: #12264B;
+    --light_blue: #00B1EB;
+    --yellow: #FFD100;
+    --grey: #EDEDED;
+    --dark_blue2: #252936;
+
+    --poppins300: 'Poppins', sans-serif;
+    --poppins500: 'Poppins', sans-serif;
+
+}
+
+
+#cardOfertas .teste {
+    display: flex;
+}
+
+
+#cardOfertas .container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+#cardOfertas .produtos_ofertas_especiais a{
+    transition: opacity ease 500ms;
+    margin: 140px 5px;
+}
+
+#cardOfertas .produtos_setaOfertas  {
+    height: 40px;
+    /* margin-top: 140px; */
+    margin: 20px;  
+    
+}
+
+#cardOfertas .produtos_setaOfertas img{
+    color: #FFD100;
+    
+
+}
+
+
+#cardOfertas .produtos_ofertas_h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    gap: 3px;
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+
+#cardOfertas .produtos_ofertas_h2::before {
+    content: "ofertas";
+    color: var(--dark_blue);
+}
+
+#cardOfertas .produtos_ofertas_h2::after {
+    content: "especiais";
+    color: var(--light_blue);
+}
+
+/* .ofertas_h2 .h2_ofertas {
+    color: var(--dark_blue);
+}
+
+.ofertas_h2 .h2_especiais {
+    color: var(--light_blue);
+} */
+
+/*OFERTAS*/
+
+#cardOfertas .produtos_ofertas_especiais {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    /* align-items: center; */
+    margin-bottom: -165px;
+    
+
+}
+
+#cardOfertas .carrossel{
+    max-width: 1440px;
+    width: 100%;
+    /* padding: 10px 40px; */
+    
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: scroll;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    height: 424px;
+    margin-bottom: -7px;
+    scroll-snap-align: start;
+
+}
+
+#cardOfertas .carrossel::-webkit-scrollbar {
+    width: 0.1em;
+    background-color: transparent;
+  }
+
+  #cardOfertas .carrossel::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  }
+
+
+
+
+
+#cardOfertas .prod_card_ofertas{
+    background-color: #195F8C;
+    width: 350px;
+    height: 150px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    border-radius: 5px;
+
+
+    flex: 1 0 auto;
+    margin: 0 10px;
+
+}
+
+#cardOfertas .prod_card_ofertas h3{
+    font-size: 16px;
+    text-transform: capitalize;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+
+#cardOfertas .prod_card_ofertas h4{
+    font-size: 12px;
+    text-transform: capitalize;
+    margin-left: 10px;
+    font-weight: lighter;
+
+}
+
+#cardOfertas .prod_card_ofertas img{
+    width: 250px;
+    /* position: absolute; */
+    margin-top: 30px;
+    margin-left: 30px;
+
+}
+
+#cardOfertas .prod_card_ofertas span{
+    font-size: 16px;
+    color: var(--dark_blue);
+    font-weight: 900;
+    font-size: 18px;
+    margin: 8px auto;
+
+}
+
+#cardOfertas .card_ofertas1 h5{
+    font-size: 12px;
+    color: #000000;
+    margin: 2px auto;
+
+}
+
+#cardOfertas .prod_card_ofertas .prod_btn_card{
+    background-color: var(--light_blue);
+
+    filter: drop-shadow(8px 8px 8px rgba(0, 0, 0, 0.25));
+
+    width: 230px;
+    padding: 10px 10px;
+    margin: 10px auto;
+    border-radius: 30px;
+
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+
+}
+
+#cardOfertas .prod_card_ofertas h6{
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 12px;
+    text-transform: capitalize;
+    margin: 1px auto;
+
+
+}
+
+
+
+
+    @media screen and (max-width: 320px) {
+
+        #cardOfertas .prod_card_ofertas{
+            width: 280px;
+    }
+
+    #CardNoticiasRecentes .prod_paragrafo {
+        width: 320px;
+    }
+
+    #CardNoticiasRecentes .prod_card_noticias img {
+        width: 350px;
+        /* border-radius: 10px 10px 0px 0px; */
+    }
+}
+

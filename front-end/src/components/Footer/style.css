@@ -1,0 +1,279 @@
+.container {
+    width: 90%;
+    height: 100%;
+    max-width: 1920px;
+    margin: auto;
+}
+
+.direction_column {
+    display: flex;
+    flex-direction: column;
+}
+
+.direction_row {
+    flex-direction: row;
+}
+
+.justify_center {
+    display: flex;
+    justify-content: center;
+}
+
+.align_center {
+    display: flex;
+    align-items: center;
+}
+
+.space_between {
+    justify-content: space-between;
+}
+
+.space_evenly {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.space_around {
+    justify-content: space-around;
+}
+
+
+/* Header */
+header {
+    background-color: var(--cor-primaria);
+    border-bottom: 3px solid var(--cor-secundaria);
+}
+
+header a {
+    font-family: var(--fonte-primaria);
+    text-decoration: none;
+    font-size: 24px;
+    color: var(--cor-branco);
+}
+
+header nav {
+    width: 47vw;
+}
+
+
+.menu_barras {
+    display: none;
+}
+
+.links>div a {
+    display: none;
+    color: var(--cor-branco);
+    font-weight: 400;
+    font-size: 40px;
+    backdrop-filter: blur(25px);
+}
+
+.links>div span {
+    color: var(--cor-secundaria);
+    font-size: 40px;
+    font-weight: 400;
+    backdrop-filter: blur(25px);
+}
+
+/* Footer */
+footer {
+    background-color: var(--cor-primaria);
+    width: 100%;
+    height: 291px;
+}
+
+.footer_text {
+    font-family: var(--fonte-primaria);
+    font-size: 18px;
+    line-height: 45px;
+    color: var(--cor-branco);
+    text-decoration: none;
+}
+
+footer span {
+    font-family: var(--fonte-primaria);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: var(--cor-branco);
+}
+
+.img_footer {
+    margin-left: -11%;
+    width: 213px;
+    height: 154px;
+}
+
+.imgs_social_medias {
+    margin-bottom: 7%;
+    width: 12%;
+    display: flex;
+}
+
+.menu_barras {
+    display: none;
+}
+
+.nav_mobile {
+    display: none;
+}
+
+.imgs_social_medias>img{
+    width: 25%;
+}
+
+@media screen and (max-width: 1700px) {
+    header a {
+        font-size: 20px;
+    }
+
+    .imgs_social_medias {
+        width: 17%;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    header a {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    header a {
+        font-size: 18px;
+    }
+
+    header nav {
+        width: 70vw;
+    }
+
+    .imgs_social_medias {
+        width: 20%;
+    }
+
+    .imgs_social_medias img {
+        width: 28%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    header nav {
+        width: 70vw;
+    }
+
+    .img_footer {
+        margin-left: -16%;
+        width: unset;
+        height: unset;
+    }
+
+    footer span {
+        font-size: 16px;
+    }
+
+    .footer_text {
+        font-size: 16px;
+    }
+
+    .alinhamento_footer {
+        flex-wrap: wrap;
+    }
+
+    footer {
+        height: 100%;
+    }
+
+    .nav_mobile {
+        display: flex;
+        width: 50%;
+        justify-content: space-between;
+        margin-top: 4%;
+    }
+
+    .nav_desktop {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    header img {
+        width: 16%;
+    }
+
+    .menu_barras svg {
+        height: 13vh;
+        width: 4vw;
+        fill: var(--cor-branco);
+    }
+
+    .menu_barras {
+        display: block;
+    }
+
+    header nav {
+        display: none;
+    }
+
+    .posicionamento_header {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 50px 0 0;
+    }
+
+    .posicionamento_header nav {
+        display: none;
+        position: absolute;
+        top: 0;
+        height: 100vh;
+        width: 100%;
+        background-color: #12264B;
+        flex-direction: column;
+        z-index: 1;
+        border: 1px solid var(--branco);
+    }
+
+    .primeira_nav {
+        width: 25vw;
+        padding-right: 5%;
+    }
+
+    .imgs_social_medias {
+        width: 30%;
+        padding-right: 3%;
+    }
+
+    .imgs_social_medias img {
+        width: 29%;
+    }
+
+    .links {
+        justify-content: initial;
+        padding: 0% 5% 0% 5%;
+    }
+    
+    .navegacao_header {
+        margin-bottom: 3%;
+        margin-top: 1%;
+    }
+
+    .links>div a {
+        display: block;
+        width: unset;
+    }
+
+    .links>div {
+        align-items: center;
+        justify-content: space-between;
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .menu_barras svg {
+        height: 12vh;
+        width: 7vw;
+        fill: var(--cor-branco);
+    }
+}

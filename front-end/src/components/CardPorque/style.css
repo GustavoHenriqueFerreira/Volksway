@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Righteous&family=Titillium+Web:wght@400;600&display=swap');
+
+
+#CardPorque * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#CardPorque :root {
+    --cor-branco: #FFFFFF;
+    --cor-primaria: #12264B;
+    --cor-secundaria: #FFD100;
+    --cor-terciaria: #00B0FF;
+    --cor-quartenaria: #195F8C;
+    --cor-cinza-escuro: #252936;
+    --cor-preto: #000000;
+    --fonte-primaria: 'Poppins', sans-serif;
+    --fonte-tamanho: 18px;
+}
+
+
+
+#CardPorque .container {
+    width: 90%;
+    height: 100%;
+    max-width: 1920px;
+    margin: auto;
+}
+
+#CardPorque main{
+    margin-left: 100px;
+    display: flex;
+    
+}
+
+#CardPorque .container_75 {
+    width: 75%;
+    height: 100%;
+    max-width: 1920px;
+    margin: auto;
+}
+
+#CardPorque .container_80 {
+    width: 80%;
+    height: 100%;
+    max-width: 1920px;
+    margin: auto;
+}
+
+#CardPorque .direction_column {
+    display: flex;
+    flex-direction: column;
+}
+
+#CardPorque .direction_row {
+    display: flex;
+    flex-direction: row;
+}
+
+#CardPorque .justify_end {
+    display: flex;
+    justify-content: end;
+}
+
+#CardPorque .justify_center {
+    display: flex;
+    justify-content: center;
+}
+
+#CardPorque .align_center {
+    display: flex;
+    align-items: center;
+}
+
+#CardPorque .space_between {
+    justify-content: space-between;
+}
+
+#CardPorque .space_evenly {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#CardPorque .space_around {
+    justify-content: space-around;
+}
+
+/* POR QUE */
+#CardPorque .secao_por_que {
+    height: 110vh;
+    
+   
+}
+
+#CardPorque .por_que_titulo {
+    color: var(--cor-primaria);
+    font-size: 48px;
+    font-family: var(--fonte-primaria);
+    font-weight: 700;
+    text-align: center;
+}
+
+#CardPorque .por_que_cards {
+    height: 70%;
+}
+
+#CardPorque .width_100 {
+    width: 100%;
+}
+
+#CardPorque .por_que_cards_alinhamento {
+    width: 80vw;
+}
+
+#CardPorque .slide_cards {
+    transition: opacity ease 500ms;
+    margin: 140px 5px;
+}
+
+#CardPorque .carrossel {
+    max-width: 1920px;
+    width: 90%;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: scroll;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    height: 424px; 
+    margin-bottom: -237px;
+    scroll-snap-align: start;
+
+}
+
+#CardPorque .carrossel::-webkit-scrollbar {
+    width: 0.1em;
+    background-color: transparent;
+}
+
+#CardPorque .carrossel::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+
+#CardPorque .por_que_slide1 {
+    flex: 1 0 auto;
+    margin: 0 10px;
+}
+
+#CardPorque .por_que_card {
+    width: 23.8vw;
+    height: 57vh;
+    border-radius: 20px;
+    background: var(--cor-quartenaria);
+    padding: 20px;
+}
+
+#CardPorque .por_que_card_principal {
+    width: 25.8vw;
+    height: 66vh;
+}
+
+#CardPorque .por_que_card h3 {
+    color: var(--cor-branco);
+    text-align: center;
+    font-size: 20px;
+    font-family: var(--fonte-primaria);
+    font-weight: 700;
+}
+
+#CardPorque .por_que_card p {
+    color: var(--cor-branco);
+    text-align: center;
+    font-size: 16px;
+    font-family: var(--fonte-primaria);
+    font-weight: 500;
+}
+
+#CardPorque .circulos {
+    width: 3vw
+}
+
+#CardPorque .por_que_#CardPorque {
+    background: var(--cor-primaria);
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+}
+
+#CardPorque .ativo_circulo {
+    width: 25px;
+    height: 25px;
+}
+
+#CardPorque .btn_cadastrar {
+    width: 458.25px;
+    height: 70px;
+    border-radius: 30px;
+    background: var(--cor-primaria);
+    color: var(--cor-branco);
+    text-align: center;
+    font-size: 20px;
+    font-family: var(--fonte-primaria);
+    font-weight: 700;
+    text-decoration: none;
+}
+

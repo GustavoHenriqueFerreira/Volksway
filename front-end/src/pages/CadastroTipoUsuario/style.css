@@ -1,0 +1,394 @@
+#main_cadastro_tipo_usuario .container {
+    width: 90%;
+    height: 100%;
+    max-width: 1920px;
+    margin: auto;
+}
+
+#main_cadastro_tipo_usuario .direction_column {
+    display: flex;
+    flex-direction: column;
+}
+
+#main_cadastro_tipo_usuario .direction_row {
+    flex-direction: row;
+}
+
+#main_cadastro_tipo_usuario .justify_center {
+    display: flex;
+    justify-content: center;
+}
+
+#main_cadastro_tipo_usuario .align_center {
+    display: flex;
+    align-items: center;
+}
+
+#main_cadastro_tipo_usuario .space_between {
+    justify-content: space-between;
+}
+
+#main_cadastro_tipo_usuario .space_evenly {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#main_cadastro_tipo_usuario .space_around {
+    justify-content: space-around;
+}
+
+/*==================================voltar*/
+#main_cadastro_tipo_usuario .div_voltar {
+    /*  background-color: #b19f84; */
+    height: 50px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 26px;
+}
+
+#main_cadastro_tipo_usuario .aVoltar {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-decoration: none;
+    color: var(--cor-primaria);
+
+}
+
+#main_cadastro_tipo_usuario .conteudo {
+
+    align-items: column;
+}
+
+#main_cadastro_tipo_usuario .tres_opcoes {
+    width: 565px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 65px;
+    margin-bottom: 60px;
+}
+
+#main_cadastro_tipo_usuario .quemEVoce {
+    display: flex;
+    /*  background-color: #ddb16f; */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: #12264B;
+    width: 300px;
+    margin-left: 65px;
+
+}
+
+#main_cadastro_tipo_usuario .seDestaca {
+    /*  background-color: cornflowerblue; */
+    margin-left: 65px;
+    margin-top: 10px;
+    width: 600px;
+}
+
+#main_cadastro_tipo_usuario .se_destaca {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+
+    color: #12264B;
+}
+
+#main_cadastro_tipo_usuario .perguntaOpcao {
+    margin-left: 65px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#main_cadastro_tipo_usuario .pergunta_opcao {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+
+
+
+    color: #12264B;
+}
+
+/*===============================mototosta*/
+#main_cadastro_tipo_usuario .motorista {
+    display: flex;
+    align-items: center;
+    width: 148px;
+    height: 160px;
+    border-radius: 30px;
+    background-color: var(--blue_card);
+    flex-direction: column;
+    padding: 7px;
+    cursor: pointer;
+    justify-content: space-evenly;
+}
+
+#main_cadastro_tipo_usuario .img_motorista {
+    display: flex;
+    align-items: center;
+    height: 86px;
+    width: 86px;
+    margin-top: 6%;
+}
+
+#main_cadastro_tipo_usuario .a_motorista {
+    display: flex;
+    align-items: center;
+    color: var(--cor-primaria);
+    font-weight: bold;
+    text-decoration: none;
+    font-family: var(--fonte-primaria);
+}
+
+/*===============================admFrota*/
+#main_cadastro_tipo_usuario .adm_de_frota {
+    display: flex;
+    align-items: center;
+    width: 148px;
+    height: 160px;
+    border-radius: 30px;
+    background-color: var(--blue_card);
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 7px;
+    cursor: pointer;
+}
+
+#main_cadastro_tipo_usuario .img_adm_de_frota {
+    height: 74px;
+    width: 80px;
+    margin-top: 9%;
+}
+
+#main_cadastro_tipo_usuario .a_adm_de_frota {
+    display: flex;
+    align-items: center;
+    color: var(--cor-primaria);
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    font-family: var(--fonte-primaria);
+    line-height: 20px;
+}
+
+/*===============================proprietario*/
+#main_cadastro_tipo_usuario .proprietario {
+    display: flex;
+    align-items: center;
+    width: 148px;
+    height: 160px;
+    border-radius: 30px;
+    background-color: var(--blue_card);
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 7px;
+    cursor: pointer;
+}
+
+#main_cadastro_tipo_usuario .img_proprietario {
+    height: 79px;
+    width: 85px;
+}
+
+#main_cadastro_tipo_usuario .a_proprietario {
+    display: flex;
+    align-items: center;
+    color: var(--cor-primaria);
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    font-family: var(--fonte-primaria);
+    line-height: 20px;
+}
+
+
+
+
+#main_cadastro_tipo_usuario section {
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: left;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.btn_proximo {
+    width: 0px;
+    margin-left: 65px;
+    margin-top: -20px;
+}
+
+.btnProximo {
+    background-color: #FFD100;
+    border-radius: 30px;
+    text-decoration: none;
+    font-family: var(--fonte-primaria);
+    color: var(--cor-preto);
+    text-transform: capitalize;
+}
+
+#main_cadastro_tipo_usuario .imgIlustracao {
+    /* background-color:cadetblue; */
+    margin-right: 121px;
+}
+
+#main_cadastro_tipo_usuario .ilustracao {
+    height: 462px;
+    width: 381px;
+    margin-left: 62px;
+    display: flex;
+    align-items: center;
+}
+
+#main_cadastro_tipo_usuario .background_amarelo {
+    background-color: var(--cor-secundaria);
+}
+
+#main_cadastro_tipo_usuario .desabilitado {
+    background-color: #ffd1008c;
+}
+
+/*main*/
+
+@media screen and (max-width: 1300px) {
+
+    .imgIlustracao {
+        display: none;
+    }
+}
+
+
+
+
+@media screen and (max-width: 800px) {
+    #main_cadastro_tipo_usuario .container_80 {
+        display: none;
+    }
+
+    #main_cadastro_tipo_usuario .seDestaca {
+        width: 375px;
+        height: 132px;
+    }
+
+    #main_cadastro_tipo_usuario .quemEVoce {
+        display: flex;
+        font-size: 28px;
+    }
+
+    #main_cadastro_tipo_usuario .seta_voltar {
+        width: 19px;
+        height: 22px;
+    }
+
+    #main_cadastro_tipo_usuario .pergunta_opcao {
+        font-size: 13px;
+    }
+
+    #main_cadastro_tipo_usuario .tres_opcoes {
+        gap: 10px;
+        width: 50%;
+    }
+
+    #main_cadastro_tipo_usuario .motorista {
+        width: 70%;
+    }
+
+    #main_cadastro_tipo_usuario .adm_de_frota {
+        width: 70%;
+    }
+
+    #main_cadastro_tipo_usuario .proprietario {
+        width: 70%;
+    }
+
+    #main_cadastro_tipo_usuario {
+        height: 646px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    #main_cadastro_tipo_usuario .tres_opcoes {
+        flex-direction: column;
+    }
+
+    #main_cadastro_tipo_usuario {
+        height: 1000px;
+    }
+
+}
+
+@media screen and (max-width: 460px) {
+    #main_cadastro_tipo_usuario {
+        height: 1214px;
+    }
+
+    #main_cadastro_tipo_usuario .conteudo {
+        width: 310px;
+        height: 1080px;
+    }
+
+    #main_cadastro_tipo_usuario .quemEVoce {
+        width: 135px;
+        font-size: 23px;
+    }
+
+    #main_cadastro_tipo_usuario .seDestaca {
+        width: 269px;
+        height: 249px;
+    }
+
+    #main_cadastro_tipo_usuario .pergunta_opcao {
+        margin-top: 2px;
+        margin-bottom: 21px;
+        font-weight: 800;
+        font-size: 15px;
+    }
+
+    #main_cadastro_tipo_usuario .btn_proximo {
+        width: 224px;
+    }
+
+    #main_cadastro_tipo_usuario .tres_opcoes {
+        align-items: baseline;
+        width: 77%;
+    }
+
+    #main_cadastro_tipo_usuario {
+        height: 1063px;
+        /*  width: 320px; */
+    }
+}
+
+@media screen and (max-width: 320px) {
+    #main_cadastro_tipo_usuario .quemEVoce {
+        width: 122px;
+        font-size: 17px;
+    }
+
+    #main_cadastro_tipo_usuario .conteudo {
+        width: 300px;
+        height: 1063px;
+    }
+
+    #main_cadastro_tipo_usuario .seDestaca {
+        width: 230px;
+        height: 238px;
+    }
+
+    #main_cadastro_tipo_usuario .se_destaca {
+        font-size: 10px;
+    }
+}

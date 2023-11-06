@@ -1,0 +1,21 @@
+.btn_proximo {
+    justify-content: initial;
+    align-items: center;
+    display: flex;
+    width: 303px;
+    height: 57px;
+    border-radius: 30px;
+    margin-left: 65px;
+    margin-top: 1px;
+    cursor: pointer;
+}
+
+.btnProximo {
+    border: none;
+    padding: 12px 70px;
+    background-color: #FFD100;
+    font-family: var(--fonte-primaria);
+    border-radius: 30px;
+    text-decoration: none;
+    text-transform: capitalize;
+}

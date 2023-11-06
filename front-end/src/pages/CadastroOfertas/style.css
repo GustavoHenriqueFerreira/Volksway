@@ -1,0 +1,553 @@
+* {
+    font-family: var(--fonte-primaria);
+}
+
+#main_cadastro_ofertas header {
+    background-color: var(--cor-primaria);
+    height: 113px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 3px solid var(--amarelo);
+ 
+}
+
+#main_cadastro_ofertas .logo img {
+    width: 150px;
+    height: 108px;
+}
+
+#main_cadastro_ofertas header>div>h1 {
+    width: 80vw;
+    text-align: center;
+    color: var(--cor-branco);
+    font-size: 40px;
+}
+
+#main_cadastro_ofertas .cad_ofertas {
+    display: flex;
+}
+
+#main_cadastro_ofertas aside {
+    width: 99px;
+    height: calc(vh - 113px);
+    background-color: var(--blue_card);
+
+}
+
+#main_cadastro_ofertas .cad_ofertas_collumn {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 99px);
+}
+
+#main_cadastro_ofertas .cad_ofertas_corpo {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    width: 100%;
+}
+
+#main_cadastro_ofertas .cad_ofertas_pesquisa {
+    align-items: center;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 10px;
+}
+
+#main_cadastro_ofertas .cad_ofertas_pesquisa>input {
+    border: 1px solid #000000;
+    border-radius: 30px;
+    height: 36px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+#main_cadastro_ofertas .cad_ofertas_btn {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    min-width: 320px;
+}
+
+#main_cadastro_ofertas .cad_ofertas_btn>button {
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 18px;
+    height: 36px;
+    border-radius: 30px;
+    border: none;
+    color: var(--cor-branco);
+}
+
+#main_cadastro_ofertas .cad_ofertas_btn :nth-child(1) {
+    background: var(--cor-secundaria);
+    color: var(--azulEscuro);
+    width: 140px;
+}
+
+#main_cadastro_ofertas .cad_ofertas_btn :nth-child(2) {
+    background: var(--vermelho);
+    width: 100px;
+}
+
+#main_cadastro_ofertas .cad_ofertas_btn :nth-child(3) {
+    background: var(--blue_card);
+    width: 100px;
+}
+
+#main_cadastro_ofertas .cad_ofertas_NomeCampos {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    font-size: 18px;
+    min-height: 50px;
+    align-items: center;
+}
+
+#main_cadastro_ofertas .cad_ofertas_campos {
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+     min-height: 40px; 
+    align-items: center;
+    border-bottom: 1px  solid var(--azulEscuro)  ;
+}
+
+#main_cadastro_ofertas .cad_ofertas_NomeCampos > td{
+    width: 13%;
+    text-align:  center;
+}
+#main_cadastro_ofertas .cad_ofertas_NomeCampos :nth-child(1){
+    width: 5%;
+}
+#main_cadastro_ofertas .cad_ofertas_NomeCampos :nth-child(2){
+    width: 5%;
+}
+#main_cadastro_ofertas .cad_ofertas_NomeCampos :nth-child(3){
+    width: 8%;
+}
+#main_cadastro_ofertas .cad_ofertas_NomeCampos :nth-child(9){
+    width: 7%;
+}
+#main_cadastro_ofertas .cad_ofertas_campos > td{
+    width: 13%;
+    text-align:  center;
+   
+}
+#main_cadastro_ofertas .cad_ofertas_campos :nth-child(9){
+    width: 7%;
+    margin-right: 10px;
+}
+#main_cadastro_ofertas .cad_ofertas_campos :nth-child(1){
+    min-width: 20px;
+    width: 5%;
+    height: 20px;
+}
+#main_cadastro_ofertas .cad_ofertas_campos :nth-child(2){
+    min-width: 30px;
+    width: 5%;
+}
+#main_cadastro_ofertas .cad_ofertas_campos :nth-child(3){
+    width: 8%;
+}
+#main_cadastro_ofertas .cad_ofertas_AtuPaginas{
+    background-color: rgba(217, 217, 217, 0.4);
+    border: 1px solid #000000;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    box-shadow: inset 3px 3px 3px rgba(0, 0, 0, 0.25);
+}
+#main_cadastro_ofertas .cad_ofertas_passa_pagina {
+    display: flex;
+    align-items: center;
+       
+}
+#main_cadastro_ofertas .cad_ofertas_passa_pagina > a{
+    text-decoration: none; 
+    padding: 3px;
+    color: #000000;
+}
+#main_cadastro_ofertas .cad_ofertas_passa_pagina img {
+    margin: 6px;
+}
+#main_cadastro_ofertas .container {
+    width: 90%;
+    height: 100%;
+    max-width: 1920px;
+    margin: auto;
+}
+#main_cadastro_ofertas .direction_column {
+    display: flex;
+    flex-direction: column;
+}
+
+#main_cadastro_ofertas .direction_row {
+    flex-direction: row;
+}
+
+#main_cadastro_ofertas .justify_center {
+    display: flex;
+    justify-content: center;
+}
+
+#main_cadastro_ofertas .align_center {
+    display: flex;
+    align-items: center;
+}
+
+#main_cadastro_ofertas .space_between {
+    justify-content: space-between;
+}
+
+#main_cadastro_ofertas .space_evenly {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#main_cadastro_ofertas .space_around {
+    justify-content: space-around;
+}
+
+#main_cadastro_ofertas .cad_ofertas_bluer{
+    width: calc(100% - 99px);
+    display: flex;
+    align-items: center;
+    position: absolute;
+    background: radial-gradient(45.97% 45.97% at 49.12% 54.03%, rgba(21, 14, 14, 0) 0%, rgba(21, 14, 14, 0.6) 68.23%);
+    /* backdrop-filter: blur(10px); */
+    height: calc(100% - 134px);
+    top: 113px;
+    justify-content: center;
+}
+#main_cadastro_ofertas .cad_ofertas_input {
+    background-color: var(--cor-branco);
+    width: 80%;
+    height: 440px;
+    padding: 20px;
+}
+#main_cadastro_ofertas .cad_ofertas_inpcad {
+    font-size: 12px ;
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#main_cadastro_ofertas form{
+    width: 100%;
+}
+#main_cadastro_ofertas .p1{
+    display: flex;
+    width: 100%;
+    margin: 10px;
+}
+
+#main_cadastro_ofertas .coluna{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 10px;
+}
+
+#main_cadastro_ofertas .cad_ofertas_inpcad  input{
+    height: 25px;
+    padding: 12px;
+    min-width: 150px;
+}
+#main_cadastro_ofertas .inp input{
+    width: 210%;
+    height: 25px;
+    padding: 12px;
+}
+#main_cadastro_ofertas .data input{
+    width: 160px;
+}
+
+#main_cadastro_ofertas .cad_ofertas_inpcad  label{
+    font-weight: bolder;
+    min-width: 150px;
+
+}
+#main_cadastro_ofertas .cad_ofertas_inpcad input[type="file"] {
+    height: 40px;
+    text-align: center;
+    min-width: 150px;
+}
+#main_cadastro_ofertas .cad_ofertas_inpcad  select{
+    height: 28px;
+    text-align: center;
+    min-width: 150px;
+
+}
+#main_cadastro_ofertas .cad_ofertas_inpcad span{
+    font-size: 26px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+#main_cadastro_ofertas .cad_ofertas_input .btns{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 0 20px 0 ;
+    position: relative;
+    top: -30px;
+}
+#main_cadastro_ofertas .btns button{
+    border-radius: 30px;
+    width: 105px;
+    height: 44px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    margin: 10px 10px 0 10px;
+}
+#main_cadastro_ofertas .btns :nth-child(1){
+    background: var(--blue_card);
+}
+#main_cadastro_ofertas .btns :nth-child(2){
+    background: var(--cor-secundaria);
+    color: var(--azulEscu);
+}
+
+
+
+@media screen and (max-width: 1700px) {
+    #main_cadastro_ofertas .imgs_social_medias {
+        width: 17%;
+    }
+}
+@media screen and (max-width: 1230px) {
+#main_cadastro_ofertas .cad_ofertas_btn {
+    width: 40%;
+    }
+}
+@media screen and (max-width: 1100px) {
+    #main_cadastro_ofertas  *{
+        font-size: 14px;
+    }
+    #main_cadastro_ofertas   header nav {
+        width: 70vw;
+    }
+
+    #main_cadastro_ofertas   .imgs_social_medias {
+        width: 20%;
+    }
+
+    #main_cadastro_ofertas  .imgs_social_medias img {
+        width: 28%;
+    }
+}
+@media screen and (max-width: 970px) {
+    #main_cadastro_ofertas .cad_ofertas_input {
+        height: 470px;
+    }
+    #main_cadastro_ofertas .cad_ofertas_input .btns {
+        position: relative;
+        top: -10px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+ 
+    #main_cadastro_ofertas .cad_ofertas_btn>button {
+
+        font-size: 16px;
+    }
+    
+    #main_cadastro_ofertas  header nav {
+        width: 70vw;
+    }
+    #main_cadastro_ofertas .cad_ofertas_btn {
+        width: 50%;
+        }
+
+}
+@media screen and (max-width: 810px) {
+    #main_cadastro_ofertas .cad_ofertas_inpcad label {
+        font-size: 12px;
+    } 
+}
+
+@media screen and (max-width: 800px) {
+    #main_cadastro_ofertas .cad_ofertas_corpo {
+        flex-direction: column;
+        height: 120px;
+        padding: 10px;
+    }   
+    #main_cadastro_ofertas .cad_ofertas_btn {
+        width: 70%;
+        } 
+
+    #main_cadastro_ofertas table tr :nth-child(6){
+        display: none;
+
+    }  
+    #main_cadastro_ofertas table tr :nth-child(7){
+        display: none;
+
+    }      
+
+    #main_cadastro_ofertas .imgs_social_medias {
+        width: 30%;
+        padding-right: 3%;
+    }
+
+    #main_cadastro_ofertas .imgs_social_medias img {
+        width: 29%;
+    }
+
+    #main_cadastro_ofertas .links {
+        justify-content: initial;
+        padding: 0% 5% 0% 5%;
+    }
+    
+    #main_cadastro_ofertas .navegacao_header {
+        margin-bottom: 3%;
+        margin-top: 1%;
+    }
+
+    #main_cadastro_ofertas .links>div a {
+        display: block;
+        width: unset;
+    }
+
+    #main_cadastro_ofertas .links>div {
+        align-items: center;
+        justify-content: space-between;
+        display: flex;
+    }
+    #main_cadastro_ofertas .data input {
+        width: 130px;
+    }
+}
+@media screen and (max-width: 750px){
+    #main_cadastro_ofertas .cad_ofertas_bluer {
+        height: 100%;
+    }
+    #main_cadastro_ofertas .cad_ofertas_input {
+        height: 95%;
+    }
+    #main_cadastro_ofertas .p1_none{
+        display: initial;
+        display: flex;
+        width: 100%;
+        margin: 20px 0 20px 0;
+        justify-content:  space-around;
+    }
+    #main_cadastro_ofertas .p1{
+        margin: 20px 0 20px 0;
+        justify-content:  space-around;
+    }
+    #main_cadastro_ofertas .p1 :nth-child(3){
+        display: none;
+    }
+    #main_cadastro_ofertas .inp input {
+        width: 20%;
+        height: 60px;
+
+    }
+}
+@media screen and (max-width: 600px) {
+    #main_cadastro_ofertas header>div>h1 {
+        width: 50vw;
+        font-size: 24px;
+    }
+    #main_cadastro_ofertas .cad_ofertas_btn {
+        min-width: 320px;
+    }
+    #main_cadastro_ofertas .cad_ofertas_collumn{
+        width: 100%;
+    }
+    #main_cadastro_ofertas .linha{
+        border-top: 1px solid #000000;
+    }
+    #main_cadastro_ofertas .cad_ofertas_NomeCampos {
+        display: none;
+    }
+    #main_cadastro_ofertas table tr :nth-child(5){
+        display: none;
+    }  
+    #main_cadastro_ofertas table tr :nth-child(8){
+        display: none;
+    }  
+    #main_cadastro_ofertas aside{
+        display: none;
+    }
+    #main_cadastro_ofertas .cad_ofertas_btn > button {
+        font-size: 14px;
+        height: 30px;
+        width: 80px;
+    }
+    #main_cadastro_ofertas .cad_ofertas_btn :nth-child(2) {
+        width: 70px;
+    }
+    #main_cadastro_ofertas .cad_ofertas_btn :nth-child(3) {
+        width: 70px;
+    }   
+    #main_cadastro_ofertas .cad_ofertas_AtuPaginas{
+        flex-direction: column;
+        height: 100px;
+    }
+    #main_cadastro_ofertas .cad_ofertas_bluer {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 600px) {
+    #main_cadastro_ofertas .cad_ofertas_inpcad span {
+        font-size: 18px;
+    }
+    #main_cadastro_ofertas .cad_ofertas_bluer {
+        height: 900px;
+    }
+    #main_cadastro_ofertas .p1{
+        flex-direction: column;
+        align-items: center;
+        margin: 0 -30px;
+        justify-content: center;
+    }
+    #main_cadastro_ofertas .p1_none{
+        flex-direction: column;
+        align-items: center;
+        margin: 0 -30px;
+    }
+    #main_cadastro_ofertas .cad_ofertas_inpcad label {
+        text-align: center;
+    }
+    #main_cadastro_ofertas .cad_ofertas_inpcad input {
+        min-width: 180px;
+    }
+    #main_cadastro_ofertas .cad_ofertas_inpcad select {
+        min-width: 180px;
+    }
+    #main_cadastro_ofertas .cad_ofertas_inpcad input[type="file"] {
+        min-width: 200px;
+    }
+    #main_cadastro_ofertas .cad_ofertas_input .btns {
+       flex-direction: row;
+       align-items: center;
+       justify-content: space-evenly;
+       top: 10px;
+    }
+}
+@media screen and (max-width: 450px) {
+    #main_cadastro_ofertas header>div>h1 {
+        font-size: 20px;
+        text-align: start;
+    }
+    #main_cadastro_ofertas .cad_ofertas_inpcad span {
+        font-size: 14px;
+    }
+    #main_cadastro_ofertas .p1{
+        margin: 0 -50px;
+    }
+    #main_cadastro_ofertas .p1_none{
+        margin: 0 -50px;
+    }
+}

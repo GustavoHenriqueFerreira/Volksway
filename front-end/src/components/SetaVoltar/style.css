@@ -1,0 +1,54 @@
+/*==================================voltar*/
+.div_voltar {
+    /* background-color: #b19f84; */
+    height: 50px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 28px;
+    gap: 10px;
+}
+
+.seta_voltar {
+    width: 32px;
+    height: 28px;
+    color: var(--dark_blue);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--poppins300);
+    text-decoration: none;
+  /*   color: var(--dark_blue); */
+}
+
+:root {
+    --dark_blue: #12264B;
+    --light_blue: #00B1EB;
+    --yellow: #FFD100;
+    --grey: #EDEDED;
+    --dark_blue2: #252936;
+
+    --poppins300: 'Poppins', sans-serif;
+    --poppins500: 'Poppins', sans-serif;
+}
+
+.aVoltar {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-decoration: none;
+    color: #12264B;
+
+}
+@media screen and (max-width: 800px) {
+    .seta_voltar {
+        width: 19px;
+        height: 22px;
+    }
+}

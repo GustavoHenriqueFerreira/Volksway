@@ -1,0 +1,453 @@
+
+
+
+/*______________________SEÇAO NOTICIAS RECENTES______________*/
+
+#CardNoticiasRecentes .prod_card_noticias {
+    margin-bottom: 30px;
+}
+#CardNoticiasRecentes .prod_noticias_h2 {
+    display: flex;
+    align-items: center;
+    margin-left: 90px;
+    margin-top: 70px;
+    text-transform: capitalize;
+    gap: 3px;
+    font-size: 30px;
+    margin-bottom: 100px;
+    font-weight: 900;
+
+}
+
+
+#CardNoticiasRecentes .prod_noticias_h2::before {
+    content: "noticias";
+    color: var(--cor-primaria);
+}
+
+#CardNoticiasRecentes .prod_noticias_h2::after {
+    content: "recentes";
+    color: var(--blue_card);
+}
+
+
+
+
+
+
+#CardNoticiasRecentes .prod_noticias_recentes {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    margin-left: 20px;
+    flex-wrap: wrap;
+
+}
+
+#CardNoticiasRecentes .prod_noticias_recentes2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+
+}
+
+
+
+#CardNoticiasRecentes .prod_paragrafo {
+    width: 362px;
+    height: 213px;
+}
+
+
+#CardNoticiasRecentes .prod_card_noticias img {
+    width: 400px;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+#CardNoticiasRecentes .prod_card_branco {
+    width: 400px;
+    height: 300px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(2px);
+    border-radius: 0px 0px 10px 10px;
+    padding: 10px;
+    margin-top: -10px;
+
+}
+
+#CardNoticiasRecentes .prod_card_branco h3 {
+    color: var(--cor-primaria);
+    font-size: 14px;
+    margin: 10px 20px;
+    font-weight: 900;
+}
+
+#CardNoticiasRecentes .prod_card_branco p {
+    color: var(--cor-primaria);
+    font-size: 12px;
+    margin-left: 20px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+#CardNoticiasRecentes .prod_card_branco .prod_btn_noticias {
+    background-color: var(--cor-secundaria);
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.25);
+    font-size: 12px;
+
+    margin-left: 30px;
+    margin-top: 50px;
+    padding: 10px 130px;
+
+    border-radius: 30px;
+
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: var(--cor-primaria);
+
+}
+
+@media screen and (max-width: 768px) {
+
+    #CardNoticiasRecentes .slider-wrapper {
+        height: calc(100vh - 265px);
+
+    }
+
+    #CardNoticiasRecentes .slider {
+        overflow: scroll;
+        overflow-y: hidden;
+    }
+
+    #CardNoticiasRecentes .slider img {
+
+        height: calc(90vh - 300px);
+    }
+
+    #CardNoticiasRecentes .slider-nav {
+        margin-bottom: 95px;
+        z-index: 0;
+    }
+
+
+
+    #CardNoticiasRecentes .produtos_banner_conteudo {
+        margin: -250px 0 0 100px;
+    }
+
+
+    #CardNoticiasRecentes .produtos_banner_conteudo h2 {
+        font-size: 25px;
+
+    }
+
+    #CardNoticiasRecentes .produtos_banner_conteudo p {
+        font-size: 12px;
+    }
+
+    #CardNoticiasRecentes .produtos_banner_conteudo {
+        margin: -250px 0 0 50px;
+    }
+
+    #CardNoticiasRecentes .produtos_banner_conteudo .produtos_btn_banner {
+        width: 162px;
+        height: 40px;
+        font-size: 12px;
+    }
+
+
+    #CardNoticiasRecentes .prod_noticias_recentes {
+        /* display: none; */
+    }
+
+    #CardNoticiasRecentes .produtos_ofertas_h2 {
+        margin-top: -40px;
+
+    }
+
+    #CardNoticiasRecentes .carrossel {
+        overflow: scroll;
+        overflow-y: hidden;
+    }
+
+    #CardNoticiasRecentes .prod_noticias_recentes2 {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+}
+@media screen and (max-width: 1700px) {
+    #CardNoticiasRecentes header a {
+        font-size: 20px;
+    }
+
+    #CardNoticiasRecentes .imgs_social_medias {
+        width: 17%;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    #CardNoticiasRecentes header a {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    #CardNoticiasRecentes header a {
+        font-size: 18px;
+    }
+
+    #CardNoticiasRecentes header nav {
+        width: 70vw;
+    }
+
+    #CardNoticiasRecentes .imgs_social_medias {
+        width: 20%;
+    }
+
+    #CardNoticiasRecentes .imgs_social_medias img {
+        width: 28%;
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+    #CardNoticiasRecentes header nav {
+        width: 70vw;
+    }
+
+    #CardNoticiasRecentes .img_footer {
+        margin-left: -16%;
+        width: unset;
+        height: unset;
+    }
+
+    #CardNoticiasRecentes footer span {
+        font-size: 16px;
+    }
+
+    #CardNoticiasRecentes .footer_text {
+        font-size: 16px;
+    }
+
+    #CardNoticiasRecentes .alinhamento_footer {
+        flex-wrap: wrap;
+    }
+
+    #CardNoticiasRecentes footer {
+        height: 100%;
+    }
+
+    #CardNoticiasRecentes .nav_mobile {
+        display: flex;
+        width: 50%;
+        justify-content: space-between;
+        margin-top: 4%;
+    }
+
+    #CardNoticiasRecentes .nav_desktop {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #CardNoticiasRecentes header img {
+        width: 16%;
+    }
+
+    #CardNoticiasRecentes .menu_barras svg {
+        height: 13vh;
+        width: 4vw;
+        fill: var(--cor-branco);
+    }
+
+    #CardNoticiasRecentes .menu_barras {
+        display: block;
+    }
+
+    #CardNoticiasRecentes header nav {
+        display: none;
+    }
+
+    #CardNoticiasRecentes .posicionamento_header {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 50px 0 0;
+    }
+
+    #CardNoticiasRecentes .posicionamento_header nav {
+        display: none;
+        position: absolute;
+        top: 0;
+        height: 100vh;
+        width: 100%;
+        background-color: #12264B;
+        flex-direction: column;
+        z-index: 1;
+        border: 1px solid var(--branco);
+    }
+
+    #CardNoticiasRecentes .primeira_nav {
+        width: 25vw;
+        padding-right: 5%;
+    }
+
+    #CardNoticiasRecentes .imgs_social_medias {
+        width: 30%;
+        padding-right: 3%;
+    }
+
+    #CardNoticiasRecentes .imgs_social_medias img {
+        width: 29%;
+    }
+
+    #CardNoticiasRecentes .links {
+        justify-content: initial;
+        padding: 0% 5% 0% 5%;
+    }
+
+    #CardNoticiasRecentes .navegacao_header {
+        margin-bottom: 3%;
+        margin-top: 1%;
+    }
+
+    #CardNoticiasRecentes .links>div a {
+        display: block;
+        width: unset;
+    }
+
+    #CardNoticiasRecentes .links>div {
+        align-items: center;
+        justify-content: space-between;
+        display: flex;
+    }
+
+    /* _____________________SIZE 600px______________________*/
+
+
+    @media screen and (max-width: 600px) {
+
+        #CardNoticiasRecentes .slider-wrapper {
+            height: calc(100vh - 450px);
+
+        }
+
+        #CardNoticiasRecentes .slider img {
+
+            height: calc(100vh - 450px);
+        }
+
+        #CardNoticiasRecentes .produtos_banner_conteudo {
+            margin: -248px 0 0 50px;
+        }
+
+        #CardNoticiasRecentes .produtos_banner_conteudo h2 {
+            font-size: 27px;
+        }
+
+        #CardNoticiasRecentes .produtos_banner_conteudo p {
+            width: 375px;
+            margin-top: 15px;
+
+        }
+
+        #CardNoticiasRecentes .slider-nav {
+            margin-bottom: 5px;
+        }
+
+        #CardNoticiasRecentes .produtos_banner_conteudo .produtos_btn_banner {
+            width: 110px;
+            height: 35px;
+            font-size: 12px;
+        }
+
+        #CardNoticiasRecentes .slider-nav {
+            margin-bottom: 5px;
+        }
+
+        #CardNoticiasRecentes .produtos_ofertas_h2 {
+            margin-top: 0;
+        }
+
+               /* _____________________SIZE 320px______________________*/
+
+
+        @media screen and (max-width: 320px) {
+
+            #CardNoticiasRecentes .prod_card_promo3,
+            #CardNoticiasRecentes .prod_card_promo4 {
+                display: none;
+            }
+
+            #CardNoticiasRecentes .slider img {
+                display: none;
+            }
+
+            #CardNoticiasRecentes .produtos_banner_conteudo {
+                margin: -24px 0 0 0px;
+                flex-direction: column;
+                align-items: center;
+
+                background-color: var(--cor-primaria);
+                width: 320px;
+            }
+
+            #CardNoticiasRecentes .produtos_banner_conteudo h2,
+            .produtos_banner_conteudo p {
+                color: white;
+
+                text-shadow: none;
+                margin-top: 40px;
+                /*  margin-left: 10px; */
+            }
+
+            #CardNoticiasRecentes .produtos_banner_conteudo h2 {
+                font-size: 16px;
+
+            }
+
+            #CardNoticiasRecentes .produtos_banner_conteudo p {
+                font-size: 12px;
+                width: 240px;
+                text-align: center;
+                margin-top: 5px;
+            }
+
+            #CardNoticiasRecentes .produtos_banner_conteudo .produtos_btn_banner {
+                margin-left: 0;
+            }
+
+            #CardNoticiasRecentes .slider-nav,
+            .prod_setaPromos {
+                display: none;
+            }
+
+            #CardNoticiasRecentes .produtos_ofertas_h2 {
+                font-size: 20px;
+            }
+
+            #CardNoticiasRecentes .produtos_ofertas_especiais a {
+                display: none;
+            }
+
+            #CardNoticiasRecentes .produtos_ofertas_especiais {
+                margin-bottom: 0;
+            }
+
+
+            #CardNoticiasRecentes .prod_promocoes h2 {
+                margin-top: 230px;
+                font-size: 30px;
+            }
+
+        }
+    }
+}

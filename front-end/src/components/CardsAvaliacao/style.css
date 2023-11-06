@@ -1,0 +1,275 @@
+.container_80 {
+    width: 80%;
+    height: 100%;
+    max-width: 1920px;
+    margin: auto;
+}
+
+.direction_column {
+    display: flex;
+    flex-direction: column;
+}
+
+.direction_row {
+    display: flex;
+    flex-direction: row;
+}
+
+.justify_end {
+    display: flex;
+    justify-content: end;
+}
+
+.justify_center {
+    display: flex;
+    justify-content: center;
+}
+
+.align_center {
+    display: flex;
+    align-items: center;
+}
+
+.space_between {
+    justify-content: space-between;
+}
+
+.space_evenly {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.space_around {
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+.secao_faz_diferenca {
+    height: 96vh;
+}
+
+.secao_faz_diferenca h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.secao_faz_diferenca:nth-child(1) {
+    color: var(--cor-preto);
+    font-family: var(--fonte-primaria);
+    font-size: 20px;
+}
+
+.faz_diferenca_cards {
+    height: 52%;
+    width: 100%;
+}
+
+.faz_diferenca_card p {
+    color: var(--cor-branco);
+    font-size: 16px;
+    font-family: var(--fonte-primaria);
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.faz_diferenca_card_conteudo {
+    width: 16vw;
+}
+
+.home_selecao_card {
+    width: 24.5vw;
+    height: 45vh;
+}
+
+.home_selecao_card h2 {
+    color: var(--cor-primaria);
+    font-size: 40px;
+    font-family: var(--fonte-primaria);
+    font-weight: 700;
+    width: 109%;
+}
+
+.home_selecao_nao_encontrou,
+.home_selecao_card>div p {
+    color: var(--cor-primaria);
+    font-size: 20px;
+    font-family: var(--fonte-primaria);
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.home_selecao_card a {
+    border-radius: 30px;
+    background: var(--cor-secundaria);
+    box-shadow: 8px 8px 8px 0px rgba(0, 0, 0, 0.25);
+    width: 90%;
+    height: 15%;
+    color: var(--cor-primaria);
+    font-size: 20px;
+    font-family: var(--fonte-primaria);
+    text-decoration: none;
+}
+
+.home_selecao_card>div {
+    height: 80%;
+}
+
+.margin_bottom5 {
+    margin-bottom: 5%;
+}
+
+.img_selecao {
+    width: 62%;
+}
+
+
+
+
+@media screen and (max-width: 1200px) {
+    .secao_faz_diferenca {
+        height: 134vh;
+    }
+
+    .faz_diferenca_card {
+        height: 38vh;
+        width: 24.5vw;
+        flex-direction: column;
+    }
+
+    .faz_diferenca_cards {
+        height: 59%;
+        width: 100%;
+    }
+
+    .faz_diferenca_card img {
+        width: 31%;
+    }
+
+}
+@media screen and (max-width: 700px) {
+    
+    .faz_diferenca_card img {
+        width: 41%;
+    }
+
+    .faz_diferenca_card {
+        height: 41vh;
+        width: 37.5vw;
+        padding: 2.5% 3.5% 3.5% 3.5%;
+    }
+
+    .faz_diferenca_cards {
+        height: 65%;
+    }
+
+    .secao_faz_diferenca {
+        height: 135vh;
+    }
+
+    .faz_diferenca_cards {
+        height: 65%;
+    }
+
+    .faz_diferenca_card_conteudo {
+        width: 29vw;
+    }
+
+    .space_900px {
+        justify-content: space-between;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    .faz_diferenca_card img {
+        width: 41%;
+    }
+
+    .faz_diferenca_card {
+        height: 41vh;
+        width: 37.5vw;
+        padding: 2.5% 3.5% 3.5% 3.5%;
+    }
+
+    .faz_diferenca_cards {
+        height: 65%;
+    }
+
+    .secao_faz_diferenca {
+        height: 135vh;
+    }
+
+    .faz_diferenca_cards {
+        height: 65%;
+    }
+
+    .faz_diferenca_card_conteudo {
+        width: 29vw;
+    }
+
+    .space_900px {
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .secao_faz_diferenca {
+        height: 168vh;
+    }
+
+    .faz_diferenca_card {
+        height: 28vh;
+        width: 71.5vw;
+        flex-direction: column;
+    }
+
+    .faz_diferenca_card_conteudo {
+        width: 63vw;
+    }
+
+    .space_900px {
+        justify-content: space-between;
+        flex-direction: column;
+        height: 48.5%;
+        align-items: center;
+    }
+
+    .faz_diferenca_card img {
+        width: 23%;
+    }
+
+    .secao_faz_diferenca h2 {
+        font-size: 23px;
+    }
+
+}
+@media screen and (max-width: 400px) {
+    .secao_faz_diferenca:nth-child(1) {
+        font-size: 18px;
+    }
+
+    .faz_diferenca_cards {
+        height: 81%;
+    }
+
+    .faz_diferenca_card {
+        height: 34vh;
+        width: 75.5vw;
+        flex-direction: column;
+    }
+
+    .faz_diferenca_card_conteudo {
+        width: 63vw;
+    }
+    
+
+}

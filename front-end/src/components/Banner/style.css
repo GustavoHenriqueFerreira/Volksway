@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Righteous&family=Titillium+Web:wght@400;600&display=swap');
+
+#banner * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--poppins300);
+}
+
+#banner :root {
+    /* --dark_blue: #12264B; */
+    /* --light_blue: #00B1EB; */
+    /* --yellow: #FFD100; */
+    --grey: #EDEDED;
+    /* --dark_blue2: #252936; */
+
+    --poppins300: 'Poppins', sans-serif;
+    --poppins500: 'Poppins', sans-serif;
+
+}
+
+/* ESTILIZACAO CARROSEL - SWIPER*/
+
+#banner .container {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+
+#banner .slide-item {
+    width: 100%;
+    height: calc(100vh - 150px);
+    object-fit: cover;
+}
+
+#banner .banner_conteudo {
+    display: flex;
+}
+
+
+#banner .produtos_banner_conteudo {
+    color: white;
+    text-transform: uppercase;
+    /* background-color: beige; */
+    display: flex;
+    flex-direction: column;
+    margin: -440px 0 0 100px;
+    /* position: absolute; */
+    font-family: var(--poppins300);
+
+
+    width: 700px;
+    /* height: 400px; */
+    z-index: 1;
+
+}
+
+#banner .produtos_banner_conteudo h2 {
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+
+}
+
+#banner .produtos_banner_conteudo p {
+    margin-top: 40px;
+    font-size: 16px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+
+}
+
+#banner .produtos_banner_conteudo .produtos_btn_banner {
+    background-color: #FFD100;
+    color: #12264B;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 16px;
+    text-align: center;
+
+    margin-top: 30px;
+    border-radius: 30px;
+    width: 150px;
+    height: 45px;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+/* .produtos_circulos {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    background-color: palevioletred;
+    z-index: 2;
+    width: 270px;
+    margin-top: -35px;
+
+}
+
+.produtos_circle {
+    border-radius: 50%;
+    width: 18px;
+    height: 18.81px;
+    margin-left: 0.7vw;
+    margin-right: 0.7vw;
+    background-color: #FFFFFF;
+    z-index: 2;
+
+}
+
+
+.produtos_ativo {
+    background-color: var(--light_blue);
+} */
+
+#banner .slider-nav {
+    display: flex;
+    column-gap: 1rem;
+    /*espaço entre eles*/
+    position: absolute;
+    bottom: 1.25rem;
+    /*espaço abaixo*/
+    left: 50%;
+    transform: translateX(-50%);
+    /*muda a rotaçao de um elemento*/
+    z-index: 1;
+}
+
+#banner .slider-nav a {
+    width: 18px;
+    height: 18.81px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    opacity: 0.75;
+    transition: opacity ease 250ms;
+
+}
+
+#banner .slider-nav a:hover {
+    opacity: 1;
+    background-color: #00B1EB;
+}
+
+
+
+/*___________________SIZE 768 _______________________*/
+
+
+@media screen and (max-width: 768px) {
+
+    #banner .produtos_banner_conteudo {
+        margin: -440px 0 0 65px;
+
+    }
+
+
+
+    #banner .produtos_banner_conteudo h2 {
+        font-size: 25px;
+
+    }
+
+    #banner .produtos_banner_conteudo p {
+        font-size: 12px;
+    }
+
+
+}
+
+@media screen and (max-width: 600px) {
+
+
+    #banner .produtos_banner_conteudo h2 {
+        font-size: 25px;
+
+    }
+
+    #banner .produtos_banner_conteudo {
+        margin: -440px 0 0 65px;
+
+    }
+
+
+
+
+
+    #banner .produtos_banner_conteudo p {
+        font-size: 12px;
+    }
+
+
+}
+
+
+
+
+@media screen and (max-width: 400px) {
+
+    #banner .produtos_banner_conteudo {
+        margin: -315px 0 0 20px;
+    }
+
+    #banner .slide-item {
+        width: 100%;
+        height: calc(100vh - 325px);
+        object-fit: cover;
+    }
+
+    #banner .produtos_banner_conteudo h2 {
+        font-size: 25px;
+
+    }
+
+    #banner .produtos_banner_conteudo p {
+        font-size: 12px;
+    }
+
+
+}

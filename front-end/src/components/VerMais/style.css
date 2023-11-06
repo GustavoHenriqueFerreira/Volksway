@@ -1,0 +1,36 @@
+#verMais * {
+    margin: 10;
+    padding: 10;
+    box-sizing: border-box;
+    font-family: var(--poppins300);
+}
+
+#verMais :root {
+    --dark_blue: #12264B;
+    --light_blue: #00B1EB;
+    --yellow: #FFD100;
+    --grey: #EDEDED;
+    --dark_blue2: #252936;
+
+    --poppins300: 'Poppins', sans-serif;
+    --poppins500: 'Poppins', sans-serif;
+
+} 
+
+#verMais .produtos_btn_banner {
+    background-color: var(--yellow);
+    color: var(--dark_blue);
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 16px;
+    text-align: center;
+
+    margin-top: 30px;
+    border-radius: 30px;
+    width: 150px;
+    height: 55px;
+    padding: 10px;
+    font-weight:bolder;
+}
+
+

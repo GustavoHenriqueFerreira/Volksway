@@ -1,0 +1,754 @@
+#CardOfertasPneu * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--poppins300);
+}
+
+#CardOfertasPneu :root {
+    /* --dark_blue: #12264B;
+    --light_blue: #00B1EB;
+    --yellow: #FFD100;
+    --grey: #EDEDED;
+    --dark_blue2: #252936; */
+
+    --poppins300: 'Poppins', sans-serif;
+    --poppins500: 'Poppins', sans-serif;
+
+}
+
+
+#CardOfertasPneu .produtos_posicionamento {
+    
+    height: 100%;
+    max-width: 1920px;
+    margin: auto;
+}
+
+/*______________________SEÇAO PROMOCOES______________*/
+
+#CardOfertasPneu .prod_setaPromos {
+    height: 40px;
+    margin: 100px 25px 45px 25px;
+}
+
+#CardOfertasPneu .prod_promocoes h2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    margin-top: 330px;
+
+
+    font-size: 40px;
+    color: #FFD100;
+    text-transform: capitalize;
+
+}
+
+#CardOfertasPneu .prod_promocoes p {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    margin-bottom: 60px;
+
+    color: white;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+
+#CardOfertasPneu .prod_promocoes>div {
+    background-color: #12264B;
+    height: 530px;
+    margin-top: -190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#CardOfertasPneu .prod_card_promo1 img {
+    width: 200px;
+    border-radius: 20px 20px 0px 0px;
+    position: relative;
+    margin: 10px;
+}
+
+#CardOfertasPneu .prod_card_azul {
+    background-color: #252936;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    width: 210px;
+    height: 100px;
+
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    padding-left: 20px;
+
+    margin: 5px;
+    margin-top: -25px;
+
+    border-radius: 20px;
+    position: relative;
+    z-index: 1;
+
+}
+
+#CardOfertasPneu .prod_preco {
+    background-color: white;
+    border-radius: 20px;
+    height: 25px;
+    width: 110px;
+    margin-top: -5px;
+    margin-bottom: 10px;
+    padding: 3px 10px;
+    color: #12264B;
+    z-index: 1;
+}
+
+#CardOfertasPneu .prod_card_azul h3 {
+    color: white;
+    text-transform: capitalize;
+    font-size: 16px;
+
+    font-weight: lighter;
+}
+
+#CardOfertasPneu .prod_card_azul h4 {
+    color: white;
+    font-size: 12px;
+    font-weight: lighter;
+    text-transform: capitalize;
+}
+
+#CardOfertasPneu .prod_card_azul span {
+    color: #FFD100;
+    font-size: 16px;
+    font-weight: lighter;
+    text-transform: capitalize;
+}
+
+
+
+/*_____________________________SIZE 1200 ______________________*/
+
+
+@media screen and (max-width: 1200px) {
+
+    /* header nav {
+        margin-right: 100px;
+    } */
+}
+    /* .prod_noticias_recentes {
+        display: none;
+    } */
+
+    /* .prod_card_promo1 img,
+    .prod_card_promo2 img {
+        display: none;
+    } */
+
+    /* .slider img {
+        scroll-snap-align: start;
+        height: calc(100vh - 260px);
+    }
+
+
+    .produtos_banner_conteudo h2 {
+        margin-top: 50px;
+    }
+    .produtos_setaOfertas {
+        margin: 140px 25px;
+    }
+
+    .slider-nav{
+        margin-bottom: 110px;
+    }
+
+    .produtos_ofertas_h2{
+        margin-top: -45px;
+    }
+
+
+    .prod_card_noticias img {
+        width: 300px;
+    }
+
+    .prod_card_branco {
+        width: 300px;
+        padding: none;
+    }
+
+    .prod_card_branco .prod_btn_noticias {
+        padding: 10px 90px;
+    }
+
+    .prod_paragrafo{
+        width: 290px;
+        height: 213px;
+       
+    }
+
+    .prod_card_branco p{
+        font-size: 11px;
+    }
+
+    .prod_promocoes h2{
+        margin-top: 90px;
+    }
+
+    .prod_noticias_h2{
+        margin-bottom: 0;
+    }
+ */
+
+    /*___________________SIZE 768 _______________________*/
+
+
+    @media screen and (max-width: 768px){ 
+
+        .slider-wrapper{
+            height: calc(100vh - 265px);
+            
+        }
+
+        .slider{
+            overflow: scroll;
+            overflow-y: hidden;
+        }
+
+        .slider img{
+           
+            height: calc(90vh - 300px);
+        }
+
+        .slider-nav{
+            margin-bottom: 95px;
+            z-index: 0;
+        }
+
+      
+
+        .produtos_banner_conteudo{
+            margin: -250px 0 0 100px;
+        }
+
+
+        .produtos_banner_conteudo h2 {
+            font-size: 25px;
+            
+        }
+
+        .produtos_banner_conteudo p{
+            font-size: 12px;
+        }
+
+        .produtos_banner_conteudo {
+            margin: -250px 0 0 50px;
+        }
+        .produtos_banner_conteudo .produtos_btn_banner{
+            width: 162px;
+            height: 40px;
+            font-size: 12px;
+        }
+
+
+        .prod_noticias_recentes {
+        display: none;
+    }
+
+        .produtos_ofertas_h2 {
+            margin-top: -40px;
+
+        }
+
+        .carrossel{
+            overflow: scroll;
+            overflow-y: hidden;
+        }
+
+        .prod_noticias_recentes2{
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+    }
+        /* .produtos_setaOfertas{
+            display: none;
+        } */
+        
+
+         /* .posicionamento_header img {
+            margin: 3px;
+        }
+
+        .produtosMenu_barras {
+            display: initial;
+            margin-right: 40px;
+
+        }
+
+        .produtosMenu_barras svg {
+            height: 50px;
+            fill: white;
+        }
+
+        .posicionamento_header {
+            position: relative;
+        }
+
+        .posicionamento_header nav {
+            display: none;
+            position: absolute;
+            right: 40px;
+            top: 50px;
+            flex-direction: column;
+            z-index: 1;
+            background-color: var(--dark_blue);
+            width: 240px;
+            padding: 30px 30px;
+            text-decoration: underline;
+            text-decoration-color: #00B1EB;
+            gap: 10px;
+            backdrop-filter: blur(10px);
+            border-radius: 20px 0px 20px 20px;
+            border: 2px solid var(--light_blue);
+        } 
+
+
+      .produtos_banner {
+
+            /* background-repeat: no-repeat;
+            height: calc(100vh - 300px); */
+            /* display: none;
+        }
+
+        .produtos_banner_conteudo h2 {
+            font-size: 30px;
+        }
+
+        .produtos_banner_conteudo {
+            margin: 15px 0 0 20px;
+        }
+
+        .produtos_ofertas_h2 {
+
+            font-size: 20px;
+        }
+
+        .prod_card_ofertas1,
+        .prod_card_ofertas2 {
+            display: none;
+
+        }
+
+        .prod_noticias_h2 {
+            margin-top: 30px;
+            margin-bottom: 50px;
+            margin-left: 252px;
+        }
+
+        .prod_noticias_recentes2 {
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        footer {
+            flex-direction: column;
+            height: 500px;
+        }
+
+        footer .divfooter1 {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            order: 4;
+        }
+
+        footer .divfooter1 img {
+            width: 100px;
+            margin: 0;
+
+
+        }
+
+        footer .divfooter2,
+        footer .divfooter3 {
+            text-align: center;
+
+        }
+
+        footer .divfooter2 {
+            order: 2;
+
+        }
+
+        footer .divfooter3 {
+            order: 3;
+
+        }
+
+        footer .divfooter4 {
+            order: 1;
+            margin: 0;
+
+        }  */
+
+
+        @media screen and (max-width: 1700px) {
+            header a {
+                font-size: 20px;
+            }
+        
+            .imgs_social_medias {
+                width: 17%;
+            }
+        }
+        
+        @media screen and (max-width: 1300px) {
+            header a {
+                font-size: 18px;
+            }
+        }
+        
+        @media screen and (max-width: 1100px) {
+            header a {
+                font-size: 18px;
+            }
+        
+            header nav {
+                width: 70vw;
+            }
+        
+            .imgs_social_medias {
+                width: 20%;
+            }
+        
+            .imgs_social_medias img {
+                width: 28%;
+            }
+        }
+
+
+        @media screen and (max-width: 900px) {
+            header nav {
+                width: 70vw;
+            }
+        
+            .img_footer {
+                margin-left: -16%;
+                width: unset;
+                height: unset;
+            }
+        
+            footer span {
+                font-size: 16px;
+            }
+        
+            .footer_text {
+                font-size: 16px;
+            }
+        
+            .alinhamento_footer {
+                flex-wrap: wrap;
+            }
+        
+            footer {
+                height: 100%;
+            }
+        
+            .nav_mobile {
+                display: flex;
+                width: 50%;
+                justify-content: space-between;
+                margin-top: 4%;
+            }
+        
+            .nav_desktop {
+                display: none;
+            }
+        }
+
+        @media screen and (max-width: 800px) {
+            header img {
+                width: 16%;
+            }
+        
+            .menu_barras svg {
+                height: 13vh;
+                width: 4vw;
+                fill: var(--cor-branco);
+            }
+        
+            .menu_barras {
+                display: block;
+            }
+        
+            header nav {
+                display: none;
+            }
+        
+            .posicionamento_header {
+                position: relative;
+                display: flex;
+                justify-content: space-between;
+                padding: 0 50px 0 0;
+            }
+        
+            .posicionamento_header nav {
+                display: none;
+                position: absolute;
+                top: 0;
+                height: 100vh;
+                width: 100%;
+                background-color: #12264B;
+                flex-direction: column;
+                z-index: 1;
+                border: 1px solid var(--branco);
+            }
+        
+            .primeira_nav {
+                width: 25vw;
+                padding-right: 5%;
+            }
+        
+            .imgs_social_medias {
+                width: 30%;
+                padding-right: 3%;
+            }
+        
+            .imgs_social_medias img {
+                width: 29%;
+            }
+        
+            .links {
+                justify-content: initial;
+                padding: 0% 5% 0% 5%;
+            }
+            
+            .navegacao_header {
+                margin-bottom: 3%;
+                margin-top: 1%;
+            }
+        
+            .links>div a {
+                display: block;
+                width: unset;
+            }
+        
+            .links>div {
+                align-items: center;
+                justify-content: space-between;
+                display: flex;
+            }
+
+
+
+
+
+
+
+        /* _____________________SIZE 600px______________________*/
+
+ 
+        @media screen and (max-width: 600px) {
+
+              .slider-wrapper{
+            height: calc(100vh - 450px);
+            
+        }
+
+        .slider img{
+           
+            height: calc(100vh - 450px);
+        }
+
+        .produtos_banner_conteudo {
+            margin: -248px 0 0 50px;
+        }
+
+        .produtos_banner_conteudo h2 {
+            font-size: 27px;
+        }
+
+        .produtos_banner_conteudo p {
+            width: 375px;
+            margin-top: 15px;
+              
+        }
+        
+        .slider-nav {
+            margin-bottom: 5px;
+        }
+
+        .produtos_banner_conteudo .produtos_btn_banner {
+            width: 110px;
+            height: 35px;
+            font-size: 12px;
+        }
+
+        .slider-nav {
+            margin-bottom: 5px;
+        }
+
+        .produtos_ofertas_h2 {
+            margin-top: 0;
+        }
+    
+      /*      .slider img{
+               
+                height: calc(100vh - 440px);
+            }
+    
+            .produtos_banner_conteudo{
+                margin: -215px 0 0 100px;
+            }
+    
+    
+            .produtos_banner_conteudo h2 {
+                font-size: 30px;
+            }
+    
+            .produtos_banner_conteudo p{
+                font-size: 14px;
+            }
+    
+            .produtos_banner_conteudo {
+                margin: -215px 0 0 50px;
+            }
+            .produtos_banner_conteudo .produtos_btn_banner{
+                width: 120px;
+                font-size: 14px;
+            }
+
+        } */
+
+        /* _____________________SIZE 320px______________________*/
+
+
+        @media screen and (max-width: 320px) {
+
+            /* .posicionamento_header nav {
+                right: 0;
+                width: 200px;
+                gap: 25px;
+            } */
+
+            .prod_card_promo3,
+            .prod_card_promo4 {
+                display: none;
+            }
+
+            .slider img {
+                display: none;
+            }
+
+            .produtos_banner_conteudo {
+                margin: -24px 0 0 0px;
+                flex-direction: column;
+                align-items: center;
+                
+                /* background-color: #12264B; */
+                width: 320px;
+            }
+
+            /* .slider-wrapper{
+                background-color: #FFD100;
+                
+            }
+     */
+
+            .produtos_banner_conteudo h2,
+            .produtos_banner_conteudo p {
+                color: white;
+               
+                text-shadow: none;
+                 margin-top: 40px;
+                /*  margin-left: 10px; */
+            }
+
+            .produtos_banner_conteudo h2 {
+                font-size: 16px;
+              
+            }
+
+            .produtos_banner_conteudo p {
+                font-size: 12px;
+                width: 240px;
+                text-align: center;
+                margin-top: 5px;
+            }
+
+            .produtos_banner_conteudo .produtos_btn_banner {
+                 margin-left: 0;
+            }
+
+            .slider-nav,.prod_setaPromos  {
+                display: none;
+            }
+
+            .produtos_ofertas_h2{
+                font-size: 20px;
+            }
+
+            .produtos_ofertas_especiais a {
+                display: none;
+            }
+
+            .produtos_ofertas_especiais{
+                margin-bottom: 0;
+            }
+
+          
+            .prod_promocoes h2 {
+                 margin-top: 230px;
+                 font-size: 30px;
+            }
+
+
+
+/* 
+            .produtos_banner_conteudo .produtos_btn_banner {
+                margin-left: 70px;
+
+            }
+
+            .produtos_ofertas_h2 {
+                font-size: 16px;
+                margin: 20px;
+                margin-top: -5px;
+            }
+
+            /* .card_ofertas3{
+            margin-left: 10px;
+            } 
+
+            .prod_promocoes h2 {
+                font-size: 25px;
+            }
+
+            .prod_promocoes p {
+                font-size: 12px;
+            }
+
+            .prod_noticias_h2 {
+                font-size: 16px;
+                margin-left: 52px;
+
+            }
+
+            .prod_card_noticias img {
+                margin-left: -15px;
+            }
+
+            .prod_card_branco {
+                margin-left: -15px; 
+            }*/
+
+        }
+    }
+}

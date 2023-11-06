@@ -1,0 +1,33 @@
+#botaoProximo * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--poppins300);
+}
+
+#botaoProximo :root {
+    /* --dark_blue: #12264B;
+    --light_blue: #00B1EB;
+    --yellow: #FFD100;
+    --grey: #EDEDED;
+    --dark_blue2: #252936; */
+
+    --poppins300: 'Poppins', sans-serif;
+    --poppins500: 'Poppins', sans-serif;
+
+}
+/* #BotaoProximo */
+#botaoProximo .produtos_btn_banner {
+    background-color: #FFD100;
+    color: #12264B;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 30px;
+    width: 150px;
+    height: 55px;
+    padding: 10px;
+    font-weight: bolder;
+}

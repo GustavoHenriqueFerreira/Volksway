@@ -1,0 +1,124 @@
+#privacidade .container {
+    width: 90%;
+    height: 100%;
+    max-width: 1920px;
+    margin: auto;
+}
+
+#privacidade  {
+    display: flex;
+    margin: 60px;
+    gap: 70px;
+    font-family: var(--fonte-primaria);
+}
+
+#privacidade .politica_menu {
+    margin-top: 25px;
+}
+
+
+#privacidade .politica_menu ul {
+    margin-top: 19px;
+}
+
+#privacidade .politica_menu p {
+    color: #195F8C;
+    font-size: 16px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+
+}
+
+#privacidade a {
+    text-decoration: none;
+}
+
+#privacidade .politica_menu ul {
+    margin-top: 10px;
+}
+
+#privacidade .politica_menu ul li {
+    color: #000;
+    font-size: 14px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    width: 300px;
+    margin-left: 30px;
+    text-transform: capitalize;
+
+}
+
+#privacidade .politica_menu ul li:hover {
+    color: var(--cor-terciaria);
+}
+
+
+
+#privacidade .politicas {
+    width: 730px;
+
+
+}
+
+#privacidade .politicas h1 {
+    color: #12264B;
+    font-size: 30px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+#privacidade .politicas ul li {
+    color: #12264B;
+    font-size: 18px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 20px;
+}
+
+#privacidade .politica ul li:hover {
+    color: var(--cor-terciaria);
+}
+
+#privacidade.politicas p {
+    color: #12264B;
+    font-size: 14px;
+    font-family: Poppins;
+    font-style: normal;
+    line-height: normal;
+
+}
+
+
+@media screen and (max-width: 768px) {
+    #privacidade main {
+        flex-wrap: wrap;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    #privacidade main {
+
+        margin-left: 10px;
+        width: 300px;
+        text-align: justify;
+
+    }
+
+    #privacidade .politicas p {
+        line-height: 22px;
+    }
+
+}

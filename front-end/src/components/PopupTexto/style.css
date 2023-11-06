@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--poppins300);
+  }
+  
+  :root {
+    --blue_card: #00B1EB;
+    --dark_blue: #12264B;
+    --yellow: #FFD100;
+    --camada_geometrica: #8497B1;
+    --cor-branco: #FFFFFF;
+    --cor-primaria: #12264B;
+    --cor-secundaria: #FFD100;
+    --cor-terciaria: #00B0FF;
+    --cor-quartenaria: #195F8C;
+    --cor-cinza-escuro: #252936;
+    --cor-preto: #000000;
+    --fonte-primaria: 'Poppins', sans-serif;
+    --fonte-tamanho: 18px;
+  }
+  
+  
+  #PopupTexto body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+  }
+  
+  @media screen and (max-width: 768px) {
+  
+    body {
+      font-size: 12px;
+    }
+  
+  
+  
+  }
+  
+  
+  #PopupTexto .container {
+    background-color: #47BDFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  #PopupTexto .button {
+    text-decoration: none;
+    font-size: .875rem;
+    text-transform: uppercase;
+    display: inline-block;
+    border-radius: 1.5rem;
+    background-color: #fff;
+    color: #47BDFF;
+    padding: 1rem 2rem;
+    font-weight: 900;
+  }
+  
+  #PopupTexto .popup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    bottom: 0;
+    right: 0;
+    background-color: #0b162ceb;
+    z-index: 2;
+    visibility: hidden;
+    opacity: 0;
+    overflow: hiden;
+    transition: .64s ease-in-out;
+  }
+  
+  #PopupTexto .popup-inner {
+    position: relative;
+    bottom: -100vw;
+    right: -100vh;
+    display: flex;
+    align-items: center;
+    max-width: 829px;
+    max-height: 625px;
+    width: 100%;
+    background-color: #fff;
+    transform: rotate(32deg);
+    transition: .64s ease-in-out;
+    /* padding-bottom: 100px ; */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #PopupTexto .popupphoto {
+    flex-direction: center;
+    justify-content: center;
+    width: 100%;
+  
+    overflow: hidden;
+    background-size: 100% 200px;
+    background-repeat: no-repeat;
+    margin-left: 96px;
+    margin-bottom: 111px;
+  
+  
+  }
+  
+  #PopupTexto .popupphoto img {
+  
+    width: 250px;
+    height: 270px;
+    margin-left: 100px;
+  
+  }
+  
+  #PopupTexto .imgCaminhao {
+    background-color: #195f8c;
+    height: 100px;
+    margin-bottom: 100px;
+    width: 829px;
+  }
+  
+  #PopupTexto .imgCaminhao img {
+    margin-left: 128px;
+    width: 585px;
+  
+  }
+  
+  #PopupTexto .popuptext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    height: 100%;
+    padding: 4rem;
+  }
+  
+  #PopupTexto .Produto h1 {
+    font-size: 40px;
+    font-family: var(--fonte-primaria);
+    color: var(--cor-primaria);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    margin-left: 6px;
+    margin-top: 60px;
+  }
+  
+  #PopupTexto .popuptext p {
+    font-size: .875rem;
+    color: #1111ae;
+    line-height: 1.5;
+  }
+  
+  #PopupTexto .popuptext a {
+    text-decoration: none;
+    color: #0A0A0A;
+  }
+  
+  #PopupTexto .popup:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  #PopupTexto .popup:target .popup-inner {
+    bottom: 0;
+    right: 0;
+    transform: rotate(0);
+  }
+  
+  #PopupTexto .closepopup {
+    position: absolute;
+    right: -1rem;
+    top: -1rem;
+    width: 3rem;
+    height: 3rem;
+    font-size: .875rem;
+    font-weight: 300;
+    border-radius: 100%;
+    background-color: #00B1EB;
+    z-index: 4;
+    color: #fff;
+    line-height: 3rem;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  
+  #PopupTexto .dadosdigitados {
+    width: 59%;
+    height: 35px;
+    border-radius: 30px;
+    background-color: #ededed;
+    border: 0.5px;
+    margin: 8px;
+  
+  }
+  
+  #PopupTexto .telefone {
+    width: 59%;
+    height: 35px;
+    border-radius: 30px;
+    background-color: #ededed;
+    border: 0.5px;
+    margin: 8px;
+  }
+  
+  #PopupTexto .E-mail {
+    width: 59%;
+    height: 35px;
+    border-radius: 30px;
+    background-color: #ededed;
+    border: 0.5px;
+    margin: 8px;
+  }
+  
+  #PopupTexto .btn_proximo {
+  
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 303px;
+    height: 43px;
+    background: #FFD100;
+    border-radius: 30px;
+    margin-left: 65px;
+    margin-top: 36px;
+  }
+  
+  #PopupTexto .Produto {
+    width: 700px;
+    height: 230px;
+  }
+  #PopupTexto .texto{
+    margin: 15px;
+    
+    
+  }
+  #PopupTexto ul {
+    list-style: none;
+  }
+  
+  #PopupTexto ul li:before {
+    content: '✓';
+  }
